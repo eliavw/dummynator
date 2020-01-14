@@ -1,0 +1,14 @@
+name: eliatest
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - pytest
+  - jupyterlab
+  - mkdocs
+  - mkdocs-material
+  - pygments
+  - pymdown-extensions
+  - pip:
+      - semantic-version
